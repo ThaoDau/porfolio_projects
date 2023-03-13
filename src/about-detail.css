@@ -1,0 +1,294 @@
+
+body{
+    background-color: #243238;
+}
+html:focus-within {
+    scroll-behavior: smooth;
+
+  }
+  
+  #home,#about,#resume,#contact{
+    padding-top: 40px;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+.header{
+    /* border: 1px solid #243238;
+    border-radius: 15px; */
+    /* box-shadow: 0px 0px 2px 4px #b3bbbf15; */
+    background-color: #1a2529;
+    padding: 10px 200px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+   
+}
+.logo h1{
+   
+        font-size: 50px;
+        background: -webkit-linear-gradient(#eee, #104d12);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+}
+.list-menu li{
+    margin: 20px 20px 0px 20px;  
+    transition: 0.5s;
+}
+.list-menu ul .btn{ 
+    border: transparent;
+    border: 1px solid #1a2529;
+    margin: -10px 0px;
+}
+.list-menu ul i:hover{ 
+    color: #c7ced2;
+    box-shadow: 0px 0px 5px 5px #99999945;
+    border-radius: 100%;
+    
+}
+
+.list-menu i{
+    font-size: 30px;
+    color: white;
+    transition: 0.5s;
+}
+.list-menu a:hover{
+    font-weight: 800;
+    translate: 5s;
+    color: #33FFA9;
+}
+/*about*/
+.main{
+    background-image: url("/src/img/portrait-of-a-woman-with-artistic-make-up-P7ZSU5P.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 700px;
+}
+
+.about-banner{
+    margin-top: 50px;
+}
+.about-banner-item .box h3{
+    font-family: 'Roboto', sans-serif;
+          color: #f9f9f9;
+    font-size: 60px;
+    letter-spacing: 4px;
+    text-shadow: 1px 4px 4px rgba(232, 225, 225, 0.405);
+
+    
+}
+.about-banner-item .box strong{
+    color: #33FFA9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    letter-spacing: 4px;
+    transition: 1s;
+}
+.about-banner-item .box strong:hover{
+    color: #131c1f63;
+}
+.tag-button button{
+    background-color: transparent;
+}
+.tag-button button i{
+    font-size: 80px;
+    transition: 0.5s;
+}
+.tag-button button i:hover{
+    color: #33FFA9;
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.tag-button button::after{
+    content: "";
+    float: right;
+    width: 2px;
+    height: 70px;
+    background-color: #33FFA9;
+    display: block; 
+    margin: 0px 20px; 
+}
+
+
+
+
+.main .about-banner-item{
+    top: 60%;
+    left: 40%;
+}
+/* .porfolio {
+    background-image: url("src/1.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    width: 500px;
+    /* background-color: transparent; */
+    /* background-image: linear-gradient(90deg, #5CD2B93D 0%, #151515 80%);
+    opacity: 0.85;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s; */
+
+/*  about me   */
+.about-me{
+    background-color: #051306;
+    
+}
+.about-me h3{
+    color: #33FFA9;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.about-me h2::after{
+    display: block;
+    content: "";
+    height: 2px;
+    width: 50%;
+    background-color: #33FFA9;
+    
+}
+.view-detail{
+    background: transparent;
+    background-color: #1b7952;
+    padding: 10px;
+    transition: 0.3s;
+    border: none;
+}
+.view-detail:hover{
+    background-color: rgba(255, 252, 252, 0.938); 
+    color: #0f6c45;
+  transform: translateY(-5px); 
+  box-shadow: 0 5px #c5c2c2ab; 
+}
+
+.poforlio {
+
+    background-image: url("http://kfkit.rometheme.pro/criativo/wp-content/uploads/sites/10/2021/08/1.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
+.poforlio h4::after{
+    content: "";
+    display: block;
+    width: 50%;
+    height: 3px;
+    background-color: #1b7952;
+    margin-top: 10px;
+    text-align: center;
+    margin:15px auto;
+}
+.select-categories button{
+    background-color: transparent;
+    border: 1px solid #33ffaa21;
+    border-radius: 900px;
+    margin: 0px 10px;
+    padding: 10px;
+   transition: 0.2s;
+}
+ .select-categories button:hover{
+    box-shadow: 0px 0px 5px 5px #99999945;
+    transform: translateY(-5px); 
+}
+
+span{
+    color: rgba(255, 255, 255, 0.287);
+}
+.projects{
+    background-image: radial-gradient(at center center #5CD2B93D 0%, #02010100 80%);
+    opacity: 0.8;
+}
+.page-item .img img{
+    width: 98%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px #99999911;
+    transition: 1s;
+}
+.page-item .img{
+    transition:  0.3s ease;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.page-item  .img:hover img{
+    transform: scale(1.2);
+    transition: 1s;
+    z-index: 1;
+}
+.box-item .text a:hover{
+    color: #33FFA9;
+    cursor: pointer;
+
+}
+.box-item .text h6:hover{
+    color: #33FFA9;
+
+}
+.contact{
+    background-color: #041a06;
+    margin: 10px 0px;
+}
+
+.contact .box-contact i{
+    font-size: 30px;
+}
+.contact h3{
+    font-family: 'Poppins',sans-serif;
+    color: #33FFA9;
+    font-weight: bold;
+    font-size: 28px;
+}
+.contact a{
+    margin: 0px 50px;
+    
+}
+.contact span{
+    color: white;
+    
+}
+.contact .contact-hover{
+    position: relative;
+    transition: 2s;
+    width: max-content;
+
+}
+
+.contact .item{
+    border: 0px solid#7475748b;
+    background-color: #7475748b;
+    position: absolute;
+    display: none;
+    transition: 2s;
+    padding: 10px;
+    border-radius: 10px; 
+    width: max-content;
+}
+
+.contact  .contact-hover:hover .item{
+    display:block;
+    transition: 2s;
+     
+}
+
+.contact-hover:hover i{
+    color: #33FFA9;
+    cursor: pointer;
+}
+
+
+
